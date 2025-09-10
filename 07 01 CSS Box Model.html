@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .cid1 {
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 10px;
+        }
+        .cid2 {
+             width: 200px;
+             height: 100px;
+             background-color: #cf8080;
+             border: 1px solid black;
+             padding-top: 20px;
+             padding-right: 10px;
+             padding-bottom: 20px;
+             padding-left: 10px;
+             margin-top: 10px;
+             margin-right: 20px;
+             margin-bottom: 10px;
+             margin-left: 20px;
+        }
+        .cid3 {
+             width: 200px;
+             height: 100px;
+             background-color: #92a53c;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px auto;
+        }
+        .cid4 {
+             width: 200px;
+             height: 100px;
+             background-color: #4dbbc3;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px;
+             box-sizing: border-box;
+        }
+        .cid5 {
+             width: 200px;
+             height: 100px;
+             background-color: #f66cd3;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px;
+             box-sizing: border-box;
+             overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Box Model
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>
+            Introduction:
+        </h3>
+        <ul>
+            <li>
+                The CSS Box Model is a rectangular layout paradigm used in CSS.
+            </li>
+            <li>
+                It consists of margins, borders, padding, and the actual content, defining the structure and layout of elements on a web page.
+            </li>
+        </ul>
+        <br>
+    </div>
+    <div>
+        <h3>
+            Components of the CSS Box Model:
+        </h3>
+        <ul>
+            <li>
+                Content: The actual text, images, or media within an element.
+            </li>
+            <li>
+                Padding: The space between the content and the border, providing cushioning around the content.
+            </li>
+            <li>
+                Border: The line that encloses the content and padding, defining the boundary of the element.
+            </li>
+            <li>
+                Margin: The space outside the border, creating distance between adjacent elements.
+            </li>
+        </ul>
+    </div><br>
+    <div>
+        <h3>
+            1. Box Model:
+        </h3>
+        <h6>
+            This is a div element with borders, padding, width, height, and background color.
+        </h6>
+        <ul>
+            <li>
+                The CSS box model consists of the following properties:
+            </li>
+            <ul>
+                <li>
+                    Content
+                </li>
+                <li>
+                    Padding
+                </li>
+                <li>
+                    Border
+                </li>
+                <li>
+                    Margin
+                </li>
+            </ul>
+        </ul>
+    </div><br>
+
+   <h3>
+    Output 1
+   </h3>
+    <div class="cid1">
+        The Eminence in Shadow
+    </div><br>
+
+    <h3>
+        Output 2
+    </h3>
+    <div class="cid2">
+        The Eminence in Shadow
+    </div><br>
+
+    <h3>
+        Output 3
+    </h3>
+    <div class="cid3">
+        The Eminence in Shadow
+    </div><br>
+
+    <h3>
+        Output 4
+    </h3>
+    <div class="cid4">
+        The Eminence in Shadow
+    </div><br>
+
+     <h3>
+        Output 5
+    </h3>
+    <div class="cid5">
+        The Eminence in Shadow
+    </div><br>
+    <hr>
+</body>
+</html>

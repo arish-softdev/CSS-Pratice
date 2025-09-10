@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS RGBA Colors</title>
+    <style>
+      .wall {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        color: black;
+      }
+      .change {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        color: black;
+      }
+      .sat {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        color: black;
+      }
+    </style>
+</head>
+<body>
+  <hr>
+    <center>
+        <h2>
+            RGB Color
+        </h2>
+    </center>
+    <hr>
+    <br>
+    <div>
+      <h3>
+        1. RGB Color values:
+      </h3>
+      <ul>
+        <li>
+          An RGB color value represents RED, GREEN, and BLUE light sources.
+        </li>
+        <li>
+          An RGBA color value is an extension of RGB with an Alpha channel (opacity).
+        </li>
+        <li>
+          RGB Color Values In HTML, a color can be specified as an RGB value, using this formula: rgb(red, green, blue).
+        </li>
+        <li>
+          Each parameter (red, green, blue) defines the intensity of the color with a value between 0 and 255.
+        </li>
+        <li>
+          This means that there are 256 x 256 x 256 = 16,777,216 possible colors!
+        </li>
+        <li>
+          For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255), and the other two (green and blue) are set to 0.
+        </li>
+        <li>
+          Another example, rgb(0, 255, 0) is displayed as green, because green is set to its highest value (255), and the other two (red and blue) are set to 0.
+        </li>
+        <li>
+          To display black, set all color parameters to 0, like this:rgb(0, 0, 0).
+        </li>
+        <li>
+          To display white, set all color parameters to 255, like this:rgb(255, 255, 255).
+        </li>
+      </ul>
+      <br>
+      <h5 class="wall" style="background-color: rgb(255, 0, 0);">rgb(255, 0, 0)</h5>
+      <h5 class="wall" style="background-color: rgb(0, 0, 255);">rgb(0, 0, 255)</h5>
+      <h5 class="wall" style="background-color: rgb(60, 179, 113);">rgb(60, 179, 113)</h5>
+      <h5 class="wall" style="background-color: rgb(238, 130, 238);">rgb(238, 130, 238)</h5>
+      <h5 class="wall" style="background-color: rgb(255, 165, 0);">rgb(255, 165, 0)</h5>
+      <h5 class="wall" style="background-color: rgb(106, 90, 205);">rgb(106, 90, 205)</h5>
+    </div>
+    <br>
+
+    <div>
+      <h3>
+        2. Shades of Gray
+      </h3>
+      <ul>
+        <li>Shades of gray are often defined using equal values for all three parameters.</li>
+      </ul><br>
+      <h5 class="change" style="background-color: rgb(60, 60, 60);">rgb(60, 60, 60)</h5>
+      <h5 class="change" style="background-color: rgb(100, 100, 100);">rgb(100, 100, 100)</h5>
+      <h5 class="change" style="background-color: rgb(140, 140, 140);">rgb(140, 140, 140)</h5>
+      <h5 class="change" style="background-color: rgb(180, 180, 180);">rgb(180, 180, 180)</h5>
+      <h5 class="change" style="background-color: rgb(200, 200, 200);">rgb(200, 200, 200)</h5>
+      <h5 class="change" style="background-color: rgb(240, 240, 240);">rgb(240, 240, 240)</h5>
+    </div><br>
+    
+    <div>
+      <h3>
+        3. RGBA Alpha Value:
+      </h3>
+      <ul>
+        <li>
+          RGBA color values are an extension of RGB color values with an Alpha channel.
+        </li>
+        <li>
+          An RGBA color value is specified with: rgba(red, green, blue, alpha).
+        </li>
+        <li>
+          The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+        </li>
+      </ul><br>
+
+       <h5 class="sat" style="background-color: rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h5>
+      <h5 class="sat" style="background-color: rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h5>
+      <h5 class="sat" style="background-color: rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h5>
+      <h5 class="sat" style="background-color: rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h5>
+      <h5 class="sat" style="background-color: rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h5>
+      <h5 class="sat" style="background-color: rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h5>
+    </div><br>
+      <hr>
+    
+</body>
+</html>

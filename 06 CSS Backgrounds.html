@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+    <style>
+         .bg {
+            background-color: #7b636f;
+            background-size: cover;
+            background-position: center;
+            height: 400px; 
+      }
+
+      .bgi {
+            background-image: url("Anisky.jpg")  ;
+            background-size: cover;
+            background-position: center;
+            height: 400px; 
+            color: aliceblue;
+      }
+
+          
+    </style>
+    <style>
+        .car {
+            background-image: url("Car.jpg");
+            width: 100%;
+            height: 400px;
+            background-size: 400px 200px;
+          
+            
+            /* background-repeat: repeat; */
+            /* background-repeat: no-repeat; */
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+    }
+   h1, p{
+  color: rgb(240, 189, 6);
+    }
+
+    .bg-auto {
+      width: 180px; height: 120px;
+      background-image: url("Car.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+      border: 1px solid #ccc;
+      margin: 8px;
+      display: inline-block;
+    }
+    .bg-cover {
+      width: 180px; height: 120px;
+      background-image: url("Car.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid #ccc;
+      margin: 8px;
+      display: inline-block;
+    }
+    .bg-contain {
+      width: 180px; height: 120px;
+      background-image: url("Car.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: 1px solid #ccc;
+      margin: 8px;
+      display: inline-block;
+    }
+    .bg-px {
+      width: 180px; height: 120px;
+      background-image: url("Car.jpg");
+      background-size: 100px 60px;
+      background-repeat: no-repeat;
+      border: 1px solid #ccc;
+      margin: 8px;
+      display: inline-block;
+    }
+    .bg-multi {
+      width: 180px; height: 120px;
+      background-image: url("Car.jpg"), url("Anisky.jpg");
+      background-size: 100px 60px, contain;
+      background-repeat: no-repeat, no-repeat;
+      border: 1px solid #ccc;
+      margin: 8px;
+      display: inline-block;
+    }
+    </style>
+    <style>
+         .scroll {
+        background-image: url("Car.jpg");
+    background-repeat: no-repeat;
+    
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    min-height: 200vh; /* Make the body height at least twice the viewport height */
+    }
+
+    .position {
+        background-image: url("Car.jpg");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+
+    
+    background-position: bottom right;
+  	background-position: bottom center;
+  	background-position: bottom left;
+  	background-position: center right;
+  	background-position: center center;
+  	background-position: center left;
+  	background-position: top right;
+  	background-position: top center;
+  	background-position: top left;
+    background-position: bottom right;
+    
+    height: 800px;
+    width: 97%
+    }
+    </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Backgrounds
+        </h2>
+    </center><hr><br>
+
+    <div>
+        <h3>
+            Introduction:
+        </h3>
+        <ul>
+            <li>
+                CSS Backgrounds allow you to set the background color, image, size, and position for HTML elements.
+            </li>
+            <li>
+                They play a crucial role in enhancing the visual appeal and design of web pages.
+            </li>
+        </ul>
+    </div><br><br>
+
+    <div>
+        <h3>
+            1. Background Color:
+        </h3>
+        <ul>
+            <li>
+                Use the <background-color> property to set the background color of an element.
+            </li>
+        </ul><br>
+
+        <div class="bg">
+            <h2>On my way</h2>
+            <p>So take aim and fire away</p>
+            <p>I've never been so wide awake</p>
+            <p>No, nobody but me can keep me safe</p>
+            <p>And I'm on my way</p>
+            <p>The blood moon is on the rise</p>
+            <p>The fire burning in my eyes</p>
+            <p>No, nobody but me can keep me safe</p>
+            <p>And I'm on my way</p>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>
+            2. Background image:
+        </h3>
+        <ul>
+            <li>
+                Use the <background-image> property to set the background image of an element.
+            </li>
+        </ul>
+        <br>
+
+        <div class="bgi">
+            <h2>On my way</h2>
+            <p>So take aim and fire away</p>
+            <p>I've never been so wide awake</p>
+            <p>No, nobody but me can keep me safe</p>
+            <p>And I'm on my way</p>
+            <p>The blood moon is on the rise</p>
+            <p>The fire burning in my eyes</p>
+            <p>No, nobody but me can keep me safe</p>
+            <p>And I'm on my way</p>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>
+         3.   Background Repeat:
+        </h3>
+        <ul>
+            <li>
+                Use the <background-repeat> property to control how the background image repeats.
+            </li>
+        </ul><br>
+    </div>
+             
+    <div class="car">
+        <h1>
+                 Bugatti
+            </h1>
+            <p>
+                Bugatti is a renowned French luxury and supercar manufacturer founded in 1909 by Ettore Bugatti.
+            </p>
+    </div>
+        <br>
+
+     <div>
+
+        <h3>
+            4. Background Reapeat:
+        </h3>
+        <ul>
+            <li>
+               Use the <background-repeat> property to control how the background image repeats.
+        </ul>
+          <div class="bg-auto">auto</div>
+          <div class="bg-cover">cover</div>
+          <div class="bg-contain">contain</div>
+          <div class="bg-px">100px 60px</div>
+          <div class="bg-multi">Multiple</div>
+     </div><br>
+     
+     <div>
+        <h3>
+            5. Background Attachment:
+        </h3>
+        <ul>
+            <li>
+                Use the <background-attachment> property to control whether the background image scrolls with the content or stays fixed.
+            </li>
+        </ul>
+        <div class="scroll">
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+            <p>C for Car</p>
+        </div>
+     </div><br>
+
+     <div>
+        <h3>
+            6. Background Position:
+        </h3>
+        <ul>
+            <li>
+                Use the <background-position> property to control the position of the background image.
+            </li>
+        </ul><br>
+
+        <div class="position">
+              Bottom Right...
+        </div>
+     </div><br><hr>
+</body>
+</html>

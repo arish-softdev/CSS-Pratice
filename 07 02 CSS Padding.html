@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding</title>
+    <style>
+        .step1 {
+             width: 100%;
+             height: 100px;
+             background-color: #15d3da;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px auto;
+        }
+        .pad1 {
+             padding: 20px;
+             border: 2px solid black;
+        }
+        .head1 {
+             border: 2px solid black;
+        }
+        .step2 {
+             width: 100%;
+             height: 100px;
+             background-color: #15d3da;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px auto;
+        }
+        .pad2 {
+             padding: 50px 200px;
+             border: 2px solid black;
+        }
+        .head2 {
+             border: 2px solid black;
+        }
+        .step3 {
+             width: 100%;
+             height: 200px;
+             background-color: #15d3da;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 10px auto;
+        }
+        .pad3 {
+          padding-top: 10px;
+          padding-right: 20px;
+          padding-bottom: 30px;
+          padding-left: 40px;
+          border: 1px solid black;
+        }
+        .head3 {
+          border: 2px solid black;
+        }
+        .step4 {
+          width: 100%;
+          height: 280px;
+          background-color: #15d3da;
+          border: 1px solid black;
+          padding: 20px;
+          margin: 10px auto;
+        }
+        .pad4 {
+          padding: 20px;
+          background-color: #4f4848;
+        }
+
+        .head4 {
+          padding: 10px;
+          background-color: #ebcfcf;
+        }
+        .step5 {
+          width: 100%;
+          height: 550pxpx;
+          background-color: #15d3da;
+          border: 1px solid black;
+          padding: 20px;
+          margin: 10px auto;
+        }
+        .padded-box {
+          padding: 10px;
+        }
+
+        .header {
+          padding-top: 20px;
+          padding-right: 40px;
+          padding-bottom: 60px;
+          padding-left: 80px;
+          background-color: #f1f1f1;
+        }
+
+        .content {
+          padding: 20px;
+          background-color: #fff;
+        }
+
+        .footer {
+          padding: 10px;
+          background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Padding
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>
+            Introduction:
+        </h3>
+        <ul>
+            <li>
+                CSS Padding is used to generate space within an element, between the content and the border.
+            </li>
+            <li>
+                It helps in controlling the appearance and positioning of content within a container.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+            Key CSS Padding Properties:
+        </h3>
+        <ul>
+            <li>
+                padding-top: Sets the top padding of an element.
+            </li>
+            <li>
+                padding-right: Sets the right padding of an element.
+            </li>
+            <li>
+                padding-bottom: Sets the bottom padding of an element.
+            </li>
+            <li>
+                padding-left: Sets the left padding of an element.
+            </li>
+            <li>
+                padding: A shorthand property to set all four paddings at once.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+            STEP 1 : Add Padding to an Element.
+        </h3>
+        <div class="step1">
+            <p>
+                .padde-box {
+            </p>
+            <p>
+                padding: 20px;
+            </p>
+            <p>
+                }
+            </p>
+        </div>
+    </div><br>
+
+    <h3>
+        Output 1
+    </h3>
+    <div class="pad1">
+        <div class="head1">
+            <h4>Cid Kagunou</h4>
+            <p>The Eminence in Shadow </p>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>
+            STEP 2 : Costomize Padding with Multiple Values.
+        </h3>
+        <div class="step2">
+            <p>
+                .padde-box {
+            </p>
+            <p>
+                padding: 30px 50px;
+            </p>
+            <p>
+                }
+            </p>
+        </div>
+    </div><br>
+
+    <h3>
+        Output 2
+     </h3>
+        <div class="pad2">
+        <div class="head2">
+            <h4>Cid Kagunou</h4>
+            <p>The Eminence in Shadow </p>
+        </div>
+    </div><br>
+     
+    <div>
+        <h3>
+            STEP 3 : Set Individual Padding for Each Side.
+        </h3>
+        <div class="step3">
+            <p>
+                .padded-box {
+            </p>
+            <p>
+                padding-top: 10px;
+            </p>
+            <p>
+                padding-right: 20px;
+            </p>
+            <p>
+                padding-bottom: 30px;
+            </p>
+            <p>
+                padding-left: 40px;
+            </p>
+            <p>
+            }
+            </p>
+        </div>
+    </div><br>
+ 
+    <h3>
+        Output 3
+    </h3>
+    <div class="pad3">
+        <div class="head3">
+            <h4>Cid Kagunou</h4>
+            <p>The Eminence in Shadow </p>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>
+            STEP 4 : Nesting Elements with Padding.
+        </h3>
+        <div class="step4">
+            <p>
+                .padded-box {
+            </p>
+            <p>
+                 padding: 20px;
+            </p>
+            <p>
+            }
+            </p>
+            <br>
+            <p>
+               .inner-content {
+            </p>
+            <p>
+                padding: 10px;
+            </p>
+            <p>
+                background-color: #fff;
+            </p>
+            <p>
+            }
+            </p>
+        </div>
+    </div><br>
+
+    <h3>
+        Output 4
+    </h3>
+
+    <div class="pad4">
+        <div class="head4">
+            <h4>Cid Kagunou</h4>
+            <p>The Eminence in Shadow </p>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>
+            STEP 5 : Padding for Header, Content, and Footer.
+        </h3>
+        <div class="step5">
+            <p>
+                .padded-box {
+            </p>
+            <p>
+                padding: 10px;
+            </p>
+            <p>
+            }
+            </p>
+            <br>
+            <p>
+                .header {
+            </p>
+            <p> 
+                padding-top: 20px;
+            </p>
+            <p>
+                 padding-right: 40px;
+            </p>
+            <p>
+                padding-bottom: 60px;
+            </p>
+            <p>
+                 padding-left: 80px;
+            </p>
+            <p>
+                background-color: #f1f1f1;
+            </p>
+            <p>
+            }
+            </p>
+            <br>
+            <p>
+                .content {
+            </p>
+            <p>
+                padding: 20px;
+            </p>
+            <p>
+                background-color: #fff;
+            </p>
+            <p>
+            }
+            </p>
+            <br>
+            <p>
+                .footer {
+            </p>
+            <p>
+                padding: 10px;
+            </p>
+            <p>
+                background-color: #f1f1f1;
+            </p>
+            <p>
+            }
+            </p>
+        </div>
+    </div><br>
+        
+    <h3>
+        Output 5
+    </h3>
+     <div class="padded-box">
+        <div class="header">
+          <h1>Header</h1>
+        </div>
+        <div class="content">
+          <h2>Content</h2>
+          <p>The Eminence in Shadow.</p>
+        </div>
+        <div class="footer">
+          <h3>Footer</h3>
+        </div>
+      </div>
+      <br>
+      <hr>
+</body>
+</html>

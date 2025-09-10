@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        h3 {
+            color:rgb(233, 0, 0);
+            font-size: 30px;
+        }
+        p {
+            color: black;
+            font-size: 20px;
+        }
+        /* ID Selector */
+        #id1 {
+            color: rgb(0, 149, 255);
+            font-size: 28px;
+        }
+        /* Class Selector */
+        .highlight {
+            background-color: aqua;
+            font-weight: bold;
+        }
+        /* Universal Selector */
+        * {
+        color: blue;
+        font-weight: bold;
+      }
+      input[type="text"] {
+        background-color: yellow;
+        color: red;
+      }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Selectors
+        </h2>
+    </center>
+    <hr>
+    <div>
+        <h3>
+            Kiyotaka Ayanokoji
+        </h3>
+        <p>
+            He is the main protagonist of the You-Zitsu series. He is currently a second-year student of Advanced Nurturing High School.
+        </p>
+    </div><br>
+
+    <div>
+        <p id="id1">
+         Aquamarine Hoshino
+        </p>
+        <p>Everyone calls him "Aqua" because "Aquamarine" is too long. Ai Hoshino had one star in each eye, whereas Aqua inherited a star in his right eye while his ...</p>
+    </div><br>
+
+    <div>
+        <p class="highlight">Rimuru Tempest</p>
+        <p class="highlight">Rimuru Tempest ｢リムル＝テンペスト, rimuru tenpesuto｣ is the main protagonist of That Time I Got Reincarnated as a Slime and the reincarnation of Satoru Mikami.</p>
+        <p>Rimuru is the founder and King of the monster country Tempest of the Jura Forest. He is regarded as one of the strongest Demon Lords among the mighty Eight ...</p>
+    </div><br>
+
+    <h1>Ai Hoshino</h1>
+    <div>Aqua Hoshino</div>
+    <span>Ruby Hoshino</span>
+    <br>
+    <hr>
+     
+    <input type="text" value="Humans" />
+    <input type="text" value="Demons" />
+    <input type="password" value="Devils" />
+    <input type="email" value="Sprits" />
+    <br>
+    <hr>
+</body>
+</html>

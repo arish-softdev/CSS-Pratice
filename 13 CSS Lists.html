@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lists</title>
+    <style>
+        ul {
+          list-style-type: disc;
+        }
+        ol {
+          list-style-type: decimal;
+        }
+    </style>
+    <style>
+        ul {
+          list-style-type: square;
+        }
+        ol {
+          list-style-type: lower-alpha;
+        }
+      </style>
+      <style>
+        ul {
+          list-style-type: circle;
+        }
+        ol {
+          list-style-type: upper-alpha;
+        }
+      </style>
+      <style>
+        ul {
+          list-style-type: none;
+        }
+        ul li:before {
+          content: "•";
+          margin-right: 10px;
+        }
+        ol {
+          list-style-type: none;
+        }
+        ol li:before {
+          content: counter(list-item) ". ";
+          counter-increment: list-item;
+          margin-right: 10px;
+        }
+      </style>
+       <style>
+        ul {
+          list-style-image: url('settings.png');
+        }
+        ol {
+          list-style-image: url('settings');
+        }
+      </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Lists
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>
+            Introduction:
+        </h3>
+        <ul>
+            <li>
+                CSS Lists are used to style ordered (ol), unordered (ul), and definition lists (dl) in HTML.
+            </li>
+            <li>
+                They allow for customization of list markers, layout, and appearance.
+            </li>
+        </ul><br>
+
+        <div>
+            <h3>
+                1. List Style Types:
+            </h3>
+            <ul>
+                <li>
+                    Use the list-style-type property to define the appearance of unordered lists <ul> and ordered lists <ol>.
+                </li>
+                <li>
+                    Set the value of list-style-type to different keywords to change the bullet or numbering style.
+                </li>
+            </ul>
+            </div><br>
+            <div>
+                <h2>
+                    Places
+                </h2>
+                <ul>
+                    <li>
+                         Place 1
+                    </li>
+                    <li>
+                         Place 2
+                    </li>
+                    <li>
+                         Place 3
+                    </li>
+                </ul>
+                <ol>
+                    <li>
+                         Place 1
+                    </li>
+                    <li>
+                         Place 2
+                    </li>
+                    <li>
+                         Place 3
+                    </li>
+                </ol>
+            </div>
+        </div><br>
+
+        <div>
+            <h3>
+                2. Custom List Style Types:
+            </h3>
+            <ul>
+                <li>
+                    Use different list-style-type values to create custom bullet or numbering styles.
+                </li>
+            </ul><br>
+
+            <div>
+                <h2>
+                    Places
+                </h2>
+                <ul>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ul>
+                <ol>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ol>
+            </div>
+        </div><br>
+
+        <div>
+            <h3>
+               3. Custom Bullets and Numbering:
+            </h3>
+            <ul>
+                <li>
+                    Use the list-style-type: none; property to remove default bullets or numbering.
+                </li>
+                <li>
+                    Use the ::before pseudo-element to add custom content before list items.
+                </li>
+                <li>
+                    Combine with the content, counter, and counter-increment properties to create custom bullets or numbering.
+                </li>
+            </ul><br>
+
+            <div>
+                <h2>
+                    Places
+                </h2>
+                <ul>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ul>
+                <ol>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ol>
+            </div>
+        </div><br>
+
+        <div>
+            <h3>
+                4. List Style Images:
+            </h3>
+            <ul>
+                <li>
+                    Use the list-style-image property to use an image as the bullet or numbering style.
+                </li>
+                <li>
+                    Specify the URL of the image file as the value of list-style-image.
+                </li>
+            </ul><br>
+
+            <div>
+                <h2>
+                    Places
+                </h2>
+                <ul>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ul>
+                <ol>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ol>
+            </div>
+        </div><br>
+
+        <div>
+            <h3>
+                5. Additional List Styling:
+            </h3>
+            <ul>
+                <li>
+                    You can further customize the appearance of lists by modifying properties such as list-style-position, list-style-image, margin, and padding.
+                </li>
+                <li>
+                    Experiment with different CSS properties to achieve the desired list style.
+                </li>
+            </ul><br>
+
+            <div>
+                <h2>
+                    Places
+                </h2>
+                <ul>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ul>
+                <ol>
+                    <li>Place 1</li>
+                    <li>Place 2</li>
+                    <li>Place 3</li>
+                </ol>
+            </div>
+        </div>
+</body>
+</html>
