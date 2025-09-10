@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tables</title>
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+        }
+        
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: center;
+        }
+        
+        th {
+          background-color: red;
+          color: white;
+        }
+        
+        tr:nth-child(odd) {
+          background-color: lightgray;
+        }
+        .mark {
+            background-color: aqua;
+        }
+        td:nth-child(2) {
+            font-weight: bold;
+        }
+        td:first-child {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Tables
+        </h2>
+    </center>
+    <hr>
+    <br>
+    
+    <div>
+        <h3>
+            Introduction:
+        </h3>
+        <ul>
+            <li>
+               CSS Tables are used to style and format HTML tables, enhancing their appearance and functionality. 
+            </li>
+            <li>
+                They provide control over table layout, spacing, borders, colors, and responsiveness.
+            </li>
+        </ul>
+    </div>
+    <br>
+
+    <div>
+        <h3>
+            Key CSS Table Properties:
+        </h3>
+        <ul>
+            <li>
+                border: Defines the style, width, and color of table borders.
+            </li>
+            <li>
+               padding: Controls the space between cell content and its border. 
+            </li>
+            <li>
+                text-align: Sets the horizontal alignment of text within cells.
+            </li>
+            <li>
+                vertical-align: Controls the vertical alignment of content within cells.
+            </li>
+            <li>
+                width / height: Sets the dimensions of the table or individual cells.
+            </li>
+            <li>
+                border-collapse>: Determines whether table borders are collapsed into a single border or separated.
+            </li>
+            <li>
+                background-color: Applies background color to the table or specific cells.
+            </li>
+        </ul>
+    </div>
+    <br>
+
+    <div>
+        <h3>
+            1. Basic Table Styling:
+        </h3>
+        <ul>
+            <li>
+                Use the table element to define a table.
+            </li>
+            <li>
+                Apply styles to the th and td elements for table headers and data cells, respectively.
+            </li>
+            <li>
+                Use the border-collapse property to collapse the table borders.
+            </li>
+        </ul>
+    </div>
+    <br>
+
+    <div>
+        <h3>
+               2. Alternate Row Styling:
+        </h3>
+        <ul>
+            <li>
+                 Use the :nth-child> selector to target specific table rows.
+            </li>
+            <li>
+                Apply a background color to the even or odd rows to create an alternating row styling effect.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+              3. Highlighting Specific Cells:
+        </h3>
+        <ul>
+            <li>
+                 Use CSS classes to target specific table cells.
+            </li>
+            <li>
+                Apply a different background color or other styles to highlight those cells.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+              4. Styling Specific Cells and Columns:
+        </h3>
+        <ul>
+            <li>
+                  Use the :nth-child> selector to target specific cells or columns.
+            </li>
+            <li>
+                Apply custom styles to those cells or columns using CSS properties.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+             5. Applying Multiple Styles:
+        </h3>
+        <ul>
+            <li>
+                     Combine multiple CSS properties and selectors to apply various styles to specific table cells.
+            </li>
+        </ul>
+    </div><br>
+     
+    <div>
+        <h3>
+            Example:
+        </h3>
+        <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>7072310</td>
+            <td>Gon</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>7072311</td>
+            <td>Kiluwa</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>7072312</td>
+            <td class="mark">Leo</td>
+            <td>22</td>
+        </tr>
+    </table>
+    </div>
+    <br><br><br>
+    <br>
+    <hr>
+</body>
+</html>
