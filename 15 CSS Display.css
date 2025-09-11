@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+.block {
+    display: block;
+    border: 2px solid brown;
+}
+.inline {
+    display: inline-block;
+    background-color: aqua;
+}
+.box  {
+     display: inline-block;
+     background-color: aquamarine;
+}
+.flex {
+    display: flex;
+}
