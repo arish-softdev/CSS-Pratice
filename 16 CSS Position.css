@@ -1,0 +1,51 @@
+.sp {
+    position: static;
+    border: 1px solid black;
+    padding: 10px;
+}
+.rp {
+    position: relative;
+    top: 23px;
+    left: 49px;
+    border: 1px solid black;
+    padding: 11px;
+}
+.fp {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border: 1px solid black;
+    padding: 10px
+}
+.box {
+    position: relative;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.ap {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.container {
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow-y: scroll;
+    z-index: 0;
+}
+.element {
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: #399;
+    border: 1px solid black;
+    padding: 5px;
+    z-index: 1;
+}
+.head {
+    color: black;
+}
