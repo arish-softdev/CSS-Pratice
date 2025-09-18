@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="/CSS/20 01 CSS Combinators.css">
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Combinators
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>CSS Combinators describe relationships between different elements in CSS selectors</li>
+            <li>They allow for more specific and complex styling by targeting elements based on their relationships to others.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3></h3>
+        <ul>
+            <li>Descendant Combinator (space): Targets all descendants of a specified element.</li>
+            <li>Child Combinator (>): Targets all immediate children of a specified element.</li>
+            <li>Adjacent Sibling Combinaor (~): Targets all siblings that share the same parent as the specified element.</li>
+        </ul>
+    </div><br>tor (+): Targets the immediate next sibling of a specified element.</li>
+            <li>General Sibling Combinat
+
+    <div>
+        <h3>1. Descendant Selector:</h3>
+        <ul>
+            <li>Use the descendant selector (space) to target elements that are descendants of another element.</li>
+            <li>In the example, the paragraph inside the container div is styled differently.</li>
+        </ul>
+    </div><br>
+
+    
+
+    <div class="container">
+        <p>The time I reincarnated as a slime</p>
+        <h5>Rimaru Tempest</h5>
+    </div>
+        <p>The time I reincarnated as a slime</p>
+    <br>
+    
+    <div>
+        <h3>2. Child Selector:</h3>
+        <ul>
+            <li>Use the child selector > to target elements that are direct children of another element.</li>
+            <li>In the example, only the direct child paragraph of the div is styled differently.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <p>The time I reincarnated as a slime</p>
+
+        <span class="highlight">
+            <p>The time I reincarnated as a slime</p>
+        </span>
+    </div><br>
+
+    <div>
+        <h3>3. Adjacent Sibling Selector:</h3>
+        <ul>
+            <li>Use the adjacent sibling selector + to target an element that directly follows another element.</li>
+            <li>In the example, the second paragraph is styled differently from the first paragraph.</li>
+        </ul>
+    </div><br>
+
+    <p>The time I reincarnated as a slime</p>
+    <p>The time I reincarnated as a slime</p>
+    <div class="no">
+        <p>The time I reincarnated as a slime</p>
+
+    </div><br>
+
+    
+</body>
+</html>

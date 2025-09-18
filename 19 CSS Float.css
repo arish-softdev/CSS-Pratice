@@ -1,0 +1,33 @@
+.s1-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(210, 26, 90);
+}
+.s1-right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 186, 210);
+}
+.container {
+    width: 400px;
+    border: 1px solid black;
+}
+.s2-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(210, 26, 90);
+}
+.s2-right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 186, 210);
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

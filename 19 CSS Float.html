@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float</title>
+    <link rel="stylesheet" href="/CSS/19 CSS Float.css">
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Float
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>
+             Introduction:
+        </h3>
+        <ul>
+            <li>
+                The CSS 'float' property is used to position an element to the left or right side of its container, allowing other elements to flow around it.
+            </li>
+            <li>
+               It's commonly used for wrapping text around images or creating horizontal layouts.
+            </li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>
+
+        </h3>
+        <ul>
+            <li>float: left; Floats the element to the left side of its container.</li>
+            <li>float: right; Floats the element to the right side of its container.</li>
+            <li>float: none; Resets the float property, maintaining the normal document flow.</li>
+            <li>clear: Controls how elements following a floated element behave (e.g., 'clear: both;' prevents elements from floating on both sides).</li>
+        </ul>
+    </div>
+    <br>
+
+    <div>
+        <h3>Step 1: HTML Structure.</h3>
+        <ul>
+            <li>Create a container element with two child elements, one for the left floating element and another for the right floating element.</li>
+        </ul>
+    </div><br>
+
+    <div>
+         <div class="s1-left"></div>
+         <div class="s1-right"></div>
+    </div><br><br><br><br><br><br><br>
+
+    <div>
+        <h3>Step 2: Apply CSS Styles.</h3>
+        <ul>
+            <li>Add your custom CSS styles to the `".container`", `".left`", and `".right`" classes to control the appearance and positioning of the floating elements.</li>
+        </ul>
+    </div><br>
+
+    <div class="container clearfix">
+         <div class="s2-left"></div>
+         <div class="s2-right"></div>
+    </div><br><br>
+    <hr>
+</body>
+</html>

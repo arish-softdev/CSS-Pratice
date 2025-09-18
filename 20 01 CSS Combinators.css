@@ -1,0 +1,12 @@
+.container p {
+    color: darkgoldenrod;
+}
+div > p {
+    color: red;
+}
+p + p {
+    color: rgb(69, 69, 193);
+}
+.no p {
+    color: black;
+}
