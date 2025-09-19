@@ -1,0 +1,25 @@
+.p1 a:hover {
+    color: darkblue;
+}
+.p2 a:visited {
+    color: darkgreen;
+}
+input:focus {
+    background-color: aqua;
+}
+.p4 p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+.p5 p::before {
+    content: "Before the paragraph: ";
+}
+.p6 > p:first-child {
+    color: rgb(230, 29, 156);
+}
+.p7 p:not(.special) {
+    color: gold;
+}
+.p8 p:nth-child(odd) {
+    color: rgb(43, 226, 101);
+}
