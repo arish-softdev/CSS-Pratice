@@ -1,0 +1,23 @@
+.navigation-bar {
+    background-color: darkblue;
+}
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navigation-bar li {
+    float: left;
+}
+.navigation-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation-bar li a:hover {
+    background-color: darkgray;
+    border-radius: 15%;
+}
