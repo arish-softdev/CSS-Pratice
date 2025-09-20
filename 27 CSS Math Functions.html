@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Math Functions</title>
+    <link rel="stylesheet" href="/CSS/27 CSS Math Functions.css">
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Math Functions
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>CSS Math Functions provide a way to perform mathematical calculations within CSS.</li>
+            <li>They allow for more dynamic and flexible styling by computing values based on expressions.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>Key CSS Math Functions:</h3>
+        <ul>
+            <li>calc(): Calculates a value based on a mathematical expression, e.g., calc(100% - 50px).</li>
+            <li>min(): Returns the smallest value from a set of values, e.g., min(100px, 50%).</li>
+            <li>max(): Returns the largest value from a set of values, e.g., max(2rem, 30px).</li>
+            <li>clamp(): Clamps a value between a minimum and maximum value, e.g., clamp(20px, 50%, 200px).</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>Step 1: Basic Usage.</h3>
+        <ul>
+            <li>The calc() function is used to perform mathematical calculations within CSS.</li>
+            <li>In this example, we use calc() to set the width of the container by subtracting 40 pixels from 100%.</li>
+            <li>The circle element has a fixed width and height, and it is centered within the container.</li>
+        </ul>
+    </div>
+
+    <div class="container1">
+        <div class="circle">
+            <span>Circle</span>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>Step 2: Multiple Boxes.</h3>
+        <ul>
+            <li>In this example, we use calc() to set the width of each box by dividing the available width evenly among three boxes.</li>
+            <li>The boxes are displayed side by side with equal spacing between them.</li>
+        </ul>
+    </div>
+
+    <div class="container2">
+        <div class="box">
+            <span>Box 1</span>
+        </div>
+        <div class="box">
+            <span>Box 2</span>
+        </div>
+        <div class="box">
+            <span>Box 3</span>
+        </div>
+    </div><br>
+
+    <div>
+        <h3>Step 3: Responsive Grid.</h3>
+        <ul>
+            <li>In this example, we use calc() to set the width of each box by dividing the available width into five equal parts.</li>
+            <li>The boxes are displayed in a row with equal spacing between them.</li>
+        </ul>
+    </div>
+
+    <div class="container3">
+        <div class="dappas">
+            <span>Box 1</span>
+        </div>
+        <div class="dappas">
+            <span>Box 2</span>
+        </div>
+        <div class="dappas">
+            <span>Box 3</span>
+        </div>
+        <div class="dappas">
+            <span>Box 4</span>
+        </div>
+        <div class="dappas">
+            <span>Box 5</span>
+        </div>
+    </div><br>
+    <hr>
+</body>
+</html>
