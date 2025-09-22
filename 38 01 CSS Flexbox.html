@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="/CSS/38 01 CSS Flexbox.css">
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            CSS Flexbox
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>CSS Flexbox, or the Flexible Box Layout, is a layout model that allows easy design of complex layouts with alignment capabilities.</li>
+            <li>It provides an efficient way to distribute space and align items within complex layouts and when the size of your items is unknown or dynamic.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>Key Concepts:</h3>
+        <ul>
+            <li>Flex Container: The parent element that holds flex items.</li>
+            <li>Flex Items: The child elements within a flex container.</li>
+            <li>Main Axis: The primary axis along which flex items are laid out.</li>
+            <li>Cross Axis: The axis perpendicular to the main axis.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>Important CSS Flexbox Properties:</h3>
+        <ul>
+            <li>display: Defines a flex container (e.g., display: flex;).</li>
+            <li>flex-direction: Defines the direction of the main axis.</li>
+            <li>justify-content: Aligns items along the main axis. Horizontal alignment in x-axis.</li>
+            <li>align-items: Aligns items along the cross axis. Vertical alignment in y-axis.</li>
+            <li>align-self: property is used to control the alignment of individual flex items within a flex container.</li>
+            <li>flex-grow, flex-shrink, flex-basis: Control how flex items grow and shrink within the container.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>1. Centered Flexbox Layout</h3>
+        <ul>
+            <li>This code creates a flex container that centers its items both horizontally and vertically within a 200px height.</li>
+            <li>Each flex item has a light blue background, with padding and margin to create spacing between items.</li>
+        </ul>
+    </div>
+
+    <div class="c1">
+        <div class="b1">Box 1</div>
+        <div class="b1">Box 2</div>
+        <div class="b1">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>2. Flex Direction: Row</h3>
+        <ul>
+            <li>This code sets up a flex container with a row direction, aligning items horizontally in a row.</li>
+            <li>Each item within the container has a light blue background, padding, and margin for spacing.</li>
+        </ul>
+    </div>
+
+    <div class="c2">
+        <div class="b2">Box 1</div>
+        <div class="b2">Box 2</div>
+        <div class="b2">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>3. Vertical Flexbox Layout</h3>
+        <ul>
+            <li>This code sets up a flex container with a vertical layout by using `flex-direction: column`, stacking items from top to bottom.</li>
+            <li>Each flex item is styled with a light blue background, padding, and margin to create separation between the items.</li>
+        </ul>
+    </div>
+
+    <div class="c3">
+        <div class="b3">Box 1</div>
+        <div class="b3">Box 2</div>
+        <div class="b3">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>4. Wrapping Flex Items</h3>
+        <ul>
+            <li>This code uses `flex-wrap: wrap` to allow flex items to wrap onto multiple lines if there is not enough space on one line, enabling responsive layouts.</li>
+            <li>Each flex item is styled with a light blue background, padding, and margin to ensure they are spaced and clearly visible within the flex container.</li>
+        </ul>
+    </div>
+
+    <div class="c4">
+        <div class="b4">Box 1</div>
+        <div class="b4">Box 2</div>
+        <div class="b4">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>5. Space Between Flex Items</h3>
+        <ul>
+            <li>This example uses `justify-content: space-between` to position flex items so that the first item is aligned to the start, the last item to the end, and the remaining items evenly spaced in between.</li>
+            <li>Each flex item has a light blue background, padding, and margin to ensure they are visibly separated and clearly spaced within the flex container.</li>
+        </ul>
+    </div>
+
+    <div class="c5">
+        <div class="b5">Box 1</div>
+        <div class="b5">Box 2</div>
+        <div class="b5">Box 3</div>
+    </div><br>
+    <br>
+    <hr>
+</body>
+</html>
