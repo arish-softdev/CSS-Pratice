@@ -1,0 +1,41 @@
+.c1 {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+.b1 {
+    background-color: darkgray;
+    padding: 20px;
+    margin: 10px;
+}
+.c2 {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid black;
+}
+.b2 {
+    background-color: darkgray;
+    padding: 20px;
+    margin: 10px;
+}
+.c3 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.b3 {
+    background-color: darkgray;
+    padding: 20px;
+    margin: 10px;
+}
+.c4 {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+}
+.b4 {
+    background-color: darkgray;
+    padding: 20px;
+    margin: 10px;
+}
+
