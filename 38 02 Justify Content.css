@@ -1,3 +1,60 @@
 .c1 {
-  
+  display: flex;
+  justify-content: flex-start;
+}
+.b1 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+}
+.c2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.b2 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+}
+.c3 {
+  display: flex;
+  justify-content: center;
+}
+.b3 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+}
+.c4 {
+  display: flex;
+  justify-content: space-between;
+}
+.b4 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+}
+.c5 {
+  display: flex;
+  justify-content: space-around;
+}
+.b5 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+}
+.c6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.b6 {
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
 }
