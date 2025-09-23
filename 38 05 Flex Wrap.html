@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex wrap</title>
+    <link rel="stylesheet" href="/CSS/38 05 Flex Wrap.css">
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>
+            Flex Wrap
+        </h2>
+    </center>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Understanding "flex-wrap" in CSS Flexbox</h3>
+        <ul>
+            <li>The "flex-wrap" property controls whether flex items are forced onto one line or can wrap onto multiple lines.</li>
+            <li>It determines how flex items should behave when they overflow the flex container's size.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>The "flex-wrap" Property</h3>
+        <ol>
+            <li>nowrap: Items are fit to a single line (no wrapping).</li>
+            <li>wrap: Items wrap around to additional lines as needed.</li>
+            <li>wrap-reverse: Items wrap around to additional lines in reverse order.</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>1. No Wrap Flexbox Layout</h3>
+        <ul>
+            <li>The `flex-wrap: nowrap` property ensures that flex items stay on a single line without wrapping to the next line.</li>
+            <li>Each item has a light blue background with padding and margin, and the container has a black border.</li>
+        </ul>
+    </div>
+
+    <div class="c1">
+        <div class="b1">Box 1</div>
+        <div class="b1">Box 2</div>
+        <div class="b1">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>2. Wrap Flexbox Layout</h3>
+        <ul>
+            <li>The `flex-wrap: wrap` property allows flex items to move to a new line if there isn't enough space in the container, creating a responsive layout.</li>
+            <li>Each item is styled with a light blue background, padding, and margin, and the container has a black border.</li>
+        </ul>
+    </div>
+
+    <div class="c2">
+        <div class="b2">Box 1</div>
+        <div class="b2">Box 2</div>
+        <div class="b2">Box 3</div>
+    </div><br>
+
+    <div>
+        <h3>3. Wrap-Reverse Flexbox Layout</h3>
+        <ul>
+            <li>The `flex-wrap: wrap-reverse` property makes flex items wrap onto new lines in reverse order when needed, starting from the bottom.</li>
+            <li>The items have a light blue background, padding, and margin, and the container has a black border for clear visualization.</li>
+        </ul>
+    </div>
+
+    <div class="c3">
+        <div class="b3">Box 1</div>
+        <div class="b3">Box 2</div>
+        <div class="b3">Box 3</div>
+    </div><br><hr>
+</body>
+</html>

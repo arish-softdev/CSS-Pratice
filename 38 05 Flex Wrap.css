@@ -1,0 +1,30 @@
+.c1 {
+          display: flex;
+          flex-wrap: nowrap;
+          border: 2px solid black;
+}
+.b1 {
+          background-color: lightblue;
+          padding: 20px;
+          margin: 10px;
+}
+.c2 {
+          display: flex;
+          flex-wrap: wrap;
+          border: 2px solid black;
+}
+.b2 {
+          background-color: lightblue;
+          padding: 20px;
+          margin: 10px;
+}
+.c3 {
+          display: flex;
+          flex-wrap: wrap-reverse;
+          border: 2px solid black;
+}
+.b3 {
+          background-color: lightblue;
+          padding: 20px;
+          margin: 10px;
+}
