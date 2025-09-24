@@ -1,0 +1,38 @@
+.c1 {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.i1 {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+.c2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+.i2 {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+}
+.i3 {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+.c4 {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    height: 200px;
+}
+.i4 {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
