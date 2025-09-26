@@ -1,3 +1,9 @@
-.c1 {
+.flex-container1 {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    border: 2px solid black;
+}
+.flex-items1 {
     
 }
