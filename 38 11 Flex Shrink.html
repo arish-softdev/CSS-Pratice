@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shrink</title>
+    <link rel="stylesheet" href="/CSS/38 11 Flex Shrink.css">
+</head>
+<body>
+    <hr>
+    <div class="headline">
+        <h2>
+            Flex Shrink
+        </h2>
+    </div>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Understanding "flex-shrink" in CSS Flexbox</h3>
+        <ul>
+            <li>The "flex-shrink" property is used to specify how flex items shrink when there's not enough space.</li>
+            <li>It determines the proportion by which an item shrinks in comparison to other items within the container.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>The "flex-shrink" Property</h3>
+        <p>The "flex-shrink" property accepts an integer value representing the shrink factor of the flex item. Items with higher values will shrink more.</p>
+    </div><br>
+
+    <div>
+        <h4>1. Custom Shrink Factors: Items are set to shrink with different "flex-shrink" values.</h4>
+        <div class="flex-container1">
+        <div class="flex-items1" style="flex-shrink: 2; width: 300px;">Item 1</div>
+        <div class="flex-items1" style="flex-shrink: 1; width: 300px;">Item 2</div>
+        <div class="flex-items1" style="flex-shrink: 3; width: 300px;">Item 3</div>
+        </div>
+    </div><br>
+
+    <div>
+        <h4>2. Custom Shrink Factors (Variation): Items are set to shrink with different "flex-shrink" values.</h4>
+        <div class="flex-container2">
+        <div class="flex-items2" style="flex-shrink: 1; width: 300px;">Item 1</div>
+        <div class="flex-items2" style="flex-shrink: 3; width: 300px;">Item 2</div>
+        <div class="flex-items2" style="flex-shrink: 2; width: 300px;">Item 3</div>
+        </div>
+    </div><br>
+    <hr>
+</body>
+</html>
