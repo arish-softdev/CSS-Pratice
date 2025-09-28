@@ -1,0 +1,40 @@
+.headline {
+    display: flex;
+    justify-content: center;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.grid-container1 div {
+    padding: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+}
+.grid-container2 div {
+    padding: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-container3 div {
+    padding: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-container4 div {
+    padding: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
