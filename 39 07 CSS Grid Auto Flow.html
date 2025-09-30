@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Auto Flow</title>
+    <link rel="stylesheet" href="/CSS/39 07 CSS Grid Auto Flow.css">
+</head>
+<body>
+    <hr>
+    <div class="headline"><h2>CSS Grid Auto Flow</h2></div>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>CSS Grid Auto Flow determines how grid items are placed in the grid container.</li>
+            <li>It defines the direction in which grid items are added and how they flow in the grid.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>1. Row Auto Flow:</h3>
+        <ul>
+            <li>Use grid-auto-flow with "row" to fill rows horizontally.</li>
+            <li>In this example, items are added row by row with a fixed column count.</li>
+        </ul>
+    </div>
+    <div class="grid-container1">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+    </div><br>
+
+    <div>
+        <h3>2. Column Auto Flow with Dense:</h3>
+        <ul>
+            <li>Use grid-auto-flow with "column dense" to fill columns vertically.</li>
+            <li>In this example, items are added column by column with a fixed row count, and the dense keyword is used to fill in empty spaces.</li>
+        </ul>
+    </div>
+    <div class="grid-container2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+    </div><br>
+
+    <div>
+        <h3>3. Auto Flow with Auto-Fill:</h3>
+        <ul>
+            <li>Use grid-auto-flow with "column dense" and auto-fill to dynamically adjust the number of columns.</li>
+            <li>In this example, items are added column by column, and the grid auto-flow property is set to "column dense" with auto-fill to dynamically adjust the number of columns based on the available space.</li>
+        </ul>
+    </div>
+    <div class="grid-container3">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+    </div><br>
+
+    <div>
+        <h3>4. Row Auto Flow with Dense:</h3>
+        <ul>
+            <li>Use grid-auto-flow with "row dense" to fill rows horizontally, and the dense keyword to fill in empty spaces.</li>
+            <li>In this example, items are added row by row with a fixed column count, and the dense keyword is used to fill in empty spaces.</li>
+        </ul>
+    </div>
+    <div class="grid-container4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+    </div><br>
+    <hr>
+</body>
+</html>
