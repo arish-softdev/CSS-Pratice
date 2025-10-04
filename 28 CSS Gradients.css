@@ -1,0 +1,30 @@
+.headline {
+    display: flex;
+    justify-content: center;
+}
+.linear-gradient {
+    color: aliceblue;
+    background: linear-gradient(to left, rgb(0, 255, 234), rgb(255, 0, 144));
+    padding: 50px;
+}
+.radial-gradient {
+    color: aliceblue;
+    background: radial-gradient(circle, rgb(0, 255, 166), rgb(225, 0, 255));
+    padding: 50px;
+}
+.diagonal-gradient {
+    color: aliceblue;
+    background: linear-gradient(45deg, rgb(0, 255, 234), rgb(255, 0, 144), rgb(0, 255, 166), rgb(225, 0, 255));
+    padding: 50px;
+}
+.fixed-gradient {
+    color: aliceblue;
+    background: linear-gradient(to right, rgb(0, 255, 234), rgb(255, 0, 144), rgb(0, 255, 166), rgb(225, 0, 255));
+    background-attachment: fixed;
+    padding: 50px;
+}
+.multi-stop-gradient {
+    color: aliceblue;
+    background: linear-gradient(to right, rgb(0, 255, 234) 0%, rgb(255, 0, 144) 50%, rgb(225, 0, 255) 100%);
+    padding: 50px;
+}
