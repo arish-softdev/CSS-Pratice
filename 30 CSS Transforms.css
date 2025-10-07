@@ -20,20 +20,20 @@
     width: 200px;
     height: 200px;
     background-color: rgb(209, 91, 91);
-    transform: rotate(45deg);
+    transform: scale(0.5);
     margin: 80px;
 }
 .box-4 {
     width: 200px;
     height: 200px;
     background-color: rgb(91, 201, 209);
-    transform: rotate(45deg);
+    transform: skew(30deg, 20deg);
     margin: 80px;
 }
 .box-5 {
     width: 200px;
     height: 200px;
     background-color: rgb(209, 91, 120);
-    transform: rotate(45deg);
+    transform: rotateX(45deg);
     margin: 80px;
 }
