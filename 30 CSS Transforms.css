@@ -1,0 +1,11 @@
+.headline {
+    display: flex;
+    justify-content: center;
+}
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 168, 91);
+    transform: rotate(45deg);
+    margin: 80px;
+}
