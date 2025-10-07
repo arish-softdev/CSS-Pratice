@@ -9,3 +9,31 @@
     transform: rotate(45deg);
     margin: 80px;
 }
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(185, 91, 209);
+    transform: translate(50px, 50px);
+    margin: 80px;
+}
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 91, 91);
+    transform: rotate(45deg);
+    margin: 80px;
+}
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 201, 209);
+    transform: rotate(45deg);
+    margin: 80px;
+}
+.box-5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 91, 120);
+    transform: rotate(45deg);
+    margin: 80px;
+}
