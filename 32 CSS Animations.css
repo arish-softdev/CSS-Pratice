@@ -1,0 +1,33 @@
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: box-1 2s linear infinite;
+}
+@keyframes box-1 {
+    0% {background-color: aqua;}
+    50% {background-color: rgb(255, 0, 149);}
+    100% {background-color: rgb(0, 255, 4);}
+}
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: box-2 3s linear infinite;
+}
+@keyframes box-2 {
+    0% {background-color: red; transform: translateX(0);}
+    50% {background-color: blue; transform: translateX(200px);}
+    100% {background-color: green; transform: translateX(0);}
+}
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    animation: box-3 3s ease-in-out infinite alternate;
+}
+@keyframes box-3 {
+    0% {background-color: coral; transform: translateY(0);}
+    50% {background-color: crimson; transform: translateY(200px);}
+    100% {background-color: cornflowerblue; transform: translateY(0);}
+}

@@ -16,8 +16,7 @@
     width: 100px;
     height: 100px;
     background-color: rgb(255, 153, 0);
-    transition-property: width, height;
-    transition-duration: 1s;
+    transition: all 1s;
 }
 .box-2:hover {
     width: 200px;
@@ -27,8 +26,7 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    transition-property: all;
-    transition-duration: 1s;
+    transition: all 1s;
     margin: 50px;
 }
 .box-3:hover {
@@ -39,9 +37,7 @@
     width: 100px;
     height: 100px;
     background-color: navy;
-    transition-property: transform;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    transition: all 1s linear;
 }
 .box-4:hover {
     transform: translateX(200px);
@@ -50,9 +46,8 @@
     width: 100px;
     height: 100px;
     background-color: rgb(10, 94, 22);
-    transition-property: opacity;
-    transition-duration: 1s;
+    transition: all 1s;
 }
 .box-5:hover {
-    opacity: 0.6;;
+    opacity: 0.5;;
 }
