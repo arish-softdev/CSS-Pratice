@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Media Queries</title>
+    <style>
+        .box-1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 30px;
+            animation: box-2 3s linear infinite;
+            margin: auto;
+        }
+        @keyframes box-2 {
+            from{
+            transform: rotate(0edg);
+            background-color: rgb(255, 0, 166);
+        }
+        to{
+            transform: rotate(360deg);
+            background-color: rgb(15, 15, 255);
+        }
+        }
+        @media (min-width:800px){
+            body {
+                background-color: rgb(255, 145, 0);
+            }
+        }
+        @media (max-width:801px) and (min-width:599px){
+            body {
+                background-color: rgb(255, 88, 88);
+            }
+        }
+        @media (max-width:600px){
+            body {
+                background-color: rgb(128, 196, 252);
+            }
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <hr>
+    <h2 style="text-align: center;">CSS Media Queries</h2>
+    <hr>
+    <br>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>CSS Media Queries allow you to apply different styling rules based on the characteristics of the device and display.</li>
+            <li>They are essential for creating responsive web designs that adapt to various screen sizes and orientations.</li>
+        </ul>
+    </div><br>
+
+    <div>
+        <h3>Key Aspects of Media Queries:</h3>
+        <ul>
+            <li>Media Type: Describes the general category of the device, such as 'screen' or 'print'.</li>
+            <li>Media Features: Describe specific characteristics like 'width', 'height', 'orientation', etc.</li>
+            <li>Logical Operators: Allow combining multiple media features, such as 'and', 'not', 'only'.</li>
+        </ul>
+    </div><br>
+
+    <h3></h3>
+    <div class="box-1"></div>
 </body>
 </html>
